@@ -1,6 +1,6 @@
 # 前言
 
-> python 课程大纲.
+> 千里之行，始于足下.
 
 <!-- !> **Time** is money, my friend! -->
 
