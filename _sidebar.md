@@ -4,8 +4,13 @@
 
 - 课程目录
 
-  - [temp0](temp/temp0.md)
-  - [temp0imp](temp/temp0imp.md)
-  - [temp1](temp/temp1.md)
-  - [temp2](temp/temp2.md)
-  - [temp3](temp/temp3.md)
+  - [python](temp/python/readme.md)
+
+    - [temp0](temp/python/temp0.md)
+    - [temp0imp](temp/python/temp0imp.md)
+    - [temp1](temp/python/temp1.md)
+    - [temp2](temp/python/temp2.md)
+    - [temp3](temp/python/temp3.md)
+
+  - [其他](temp/其他/readme.md)
+    - Java
