@@ -8,6 +8,7 @@ set command=%~1
 
 if %command% == serve (
     docsify serve
+    goto End
 ) else if %command% == BrainIdeas (
     set dir=BrainIdeas
     goto CreateDocument
