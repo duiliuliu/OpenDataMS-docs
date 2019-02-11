@@ -13,4 +13,5 @@
     - [temp3](temp/python/temp3.md)
 
   - [其他](temp/其他/readme.md)
-    - [Springboot 中使用线程池.md](temp/其他/Springboot-多线程/Springboot中使用线程池.md)
+    - [Springboot 中使用线程池](temp/其他/Springboot-多线程/Springboot中使用线程池.md)
+    - [更新过程中的查询](temp/其他/更新过程中的查询.md)
