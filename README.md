@@ -74,7 +74,7 @@
 
 > LDAP: https://zh.wikipedia.org/wiki/%E8%BD%BB%E5%9E%8B%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E5%8D%8F%E8%AE%AE
 
-
+详细设计：
 
 - 数据采集  
   - [x] 使用Python语言进行数据采集，支持多线程多进程
