@@ -1,10 +1,9 @@
 ![logo](static/_image/yezi-.svg)
 
-> 记录学习，记录知识
-
-<!-- [学习](#前言) -->
+> 开放数据管理系统 | 开发 | 设计 | 文档
 
 
-[python](temp/python/readme.md)
-[其他](temp/其他/readme.md)
-[start](#前言)
+[前言](README.md)
+[前端](front/readme.md)
+[后端](back/readme.md)
+
