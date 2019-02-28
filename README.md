@@ -74,6 +74,25 @@
 
 > LDAP: https://zh.wikipedia.org/wiki/%E8%BD%BB%E5%9E%8B%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E5%8D%8F%E8%AE%AE
 
+
+
+- 数据采集  
+  - [x] 使用Python语言进行数据采集，支持多线程多进程
+  - [x] 爬虫框架使用simple-spiders框架，不过需要增加日志功能
+- 系统后端  
+  - [ ] 采用SpringBoot框架进行快速开发后端服务
+  - [ ] 需要支持用户校验
+  - [ ] 后端接口须遵循Rest规范
+- 系统前端 
+  - [x] 前端体系采用React框架+AntDesign框架进行UI开发
+  - [ ] 使用React、Redux-Sagas体系支持异步消息
+- 数据存储 
+  - [ ] 对于用户信息使用LDAP存储
+  - [ ] 数据采用文件目录的方式进行存储
+- 模块通信
+  - [ ] 通信采用消息队列进行通信
+  - [ ] 通信主要是：python采集层与后端服务层的相互通信
+
 ## 版权声明
 
 本作品采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)为许可协议
@@ -81,7 +100,7 @@
 > CC BY-NC-SA 4.0 : [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/deed.zh)
 
 - 知识共享署名
-    转载文章需要署名，可以用`对六`  
+    转载文章需要署名，可以用`对六`标识作者
 - 非商业性使用
     您不得将本作品用于商业目的
 - 相同方式共享
