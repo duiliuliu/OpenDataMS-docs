@@ -8,8 +8,23 @@
     - [ ] 新建清洗任务页面组件
     - [ ] 新建任务页面组件
 - [ ] containers
+  - [ ] 新建任务页面
+    - [ ] 新建采集页面
+    - [ ] 新建清洗页面
 - [ ] redux/actions
+  - [ ] 采集任务action
+    - [ ] cityList 城市下拉菜单数据获取
+      - [ ] REQUEST_CITY_LIST
+      - [ ] LOAD_CITY_LIST
+      - [ ] FETCH_CITY_LIST
+    - [ ] dataList 数据项下拉菜单数据获取
+      - [ ] REQUEST_DATA_LIST
+      - [ ] LOAD_DATA_LIST
+      - [ ] FETCH_DATA_LIST
+    - [ ] download 下载数据至本地
+    - [ ] submitJob
 - [ ] redux/reducers
+- [ ] redux/sagas
 
 ## components
 
@@ -31,6 +46,32 @@
 
 ## containers
 
+- 新建采集任务页
+- 新建清洗任务页面
+- 新建任务页面
+
 ## redux/actions
 
+- 请求数据action REQUEST_*
+  ```
+    {
+        type: REQUEST_*,
+        payload: param
+    }
+  ```
+
+- 加载数据action LOAD_*
+  ```
+    {
+        type: LOAD_*,
+        payload: { data }
+    }
+  ```
+- 提交数据action SUBMIT_*
+  ```
+    {
+        type: SUBMIT_*,
+        payload: { data }
+    }
+  ```
 ## redux/reducers
