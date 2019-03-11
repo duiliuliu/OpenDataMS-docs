@@ -18,7 +18,41 @@ react action命名：
 
 - 提交form表单为 SUBMIT_*
 
-- 错误请求： ERROR_*
+- 错误请求： ERROR
+- 成功请求： SUCCESS
+
+- [ ] job
+  - [ ] newJob
+    - [ ] newCollectJob
+      - [x] collectCityList 城市下拉列表数据
+      - [x] collectDataList 数据项下拉列表数据
+      - [x] collectCityStatus
+      - [x] collectDataStatus
+    - [ ] newCleanJob
+      - [x] cleanCityList
+      - [x] cleanDataList
+      - [x] cleanCityStatus
+      - [x] cleanDataStatus
+      - [ ] funtionList 函数下拉列表数据
+      - [ ] dataColList 数据列下拉列表数据
+      - [ ] functionStatus
+      - [ ] dataColStatus
+  - [ ] currentJob
+    - [ ] job
+      - [ ] 如下，job对象
+      - [ ] 多一个进度条 jobPercent
+  - [ ] managerJob
+    - [ ] job
+      - [ ] jobId 根据ID拉取详情config
+      - [ ] jobStatus
+      - [ ] jobName
+      - [ ] jobDatas  datas下载成功后每个data对象有相应的path
+      - [ ] jobCreator
+      - [ ] jobCreated
+      - [ ] jobCompleted
+      - [ ] jobConfig 详情config，比
+
+
 
 ## 前后端交互数据结构
 
@@ -34,6 +68,39 @@ react action命名：
     errorCode: ***
     errorMessage: ""
   }
+
+- user 对象
+  ```
+  user {
+    id long
+    name string
+    gender byte
+    photo String（path）
+    - [ ] 其他
+  }
+  ```
+
+- job 对象
+  ```
+  {
+    id long
+    type 枚举值 COLLECT or CLEAN
+    status  枚举值
+    name string
+    datas arrayof(data对象)
+    creator String
+    created date 数据库可用timestamp，插入时触发
+    completed date 数据库可用timestamp，更新状态时触发
+    config
+  }
+  ```
+- data 对象
+  ```
+  name string
+  path
+  size
+  ```
+
 
 ## 技术支持：
 
